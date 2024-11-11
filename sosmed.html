@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sosial Media</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            justify-content: center; 
+            height: 100vh; 
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5; 
+        }
+
+        .social-media {
+            display: flex; 
+            align-items: center; 
+            margin-bottom: 10px; 
+            width: 300px; 
+        }
+
+        .social-media img {
+            width: 24px; 
+            height: auto; 
+            margin-right: 10px; 
+        }
+
+        .social-media p {
+            margin: 0; 
+            flex-grow: 1; 
+            text-align: left; 
+        }
+
+        a {
+            text-decoration: none;
+            color: magenta; 
+        }
+
+        a:hover {
+            text-decoration: underline; 
+        }
+
+        .back-link {
+            position: absolute; 
+            left: 10px; 
+            bottom: 10px; 
+            text-decoration: none; 
+            color: #333; 
+        }
+    </style>
+</head>
+<body> 
+    <video autoplay loop muted class="background-video">
+        <source src="MM.mp4" type="video/mp4">
+    </video>     
+    <header>
+        <h1>Sosial Media</h1>
+    </header>
+    
+    <div class="social-media">
+        <img src="ig.jpg" alt="Instagram Logo">
+        <a href="https://www.instagram.com/haryx.__/?utm_source=ig_web_button_share_sheet" target="_blank">: haryx.__</a>
+    </div>
+    
+    <div class="social-media">
+        <img src="Facebook_Logo_(2019).png" alt="Facebook Logo">
+        <p>: -</p>
+    </div>
+    
+    <div class="social-media">
+        <img src="tw.jpg" alt="Twitter Logo">
+        <p>: -</p>
+    </div>
+    
+    <div class="social-media">
+        <img src="tt-removebg-preview.png" alt="Tiktok Logo">
+        <p>: -</p>
+    </div>
+    <a class="back-link href=" index.html onclick="closeTab()">Kembali ke Halaman Utama</a>
+
+    <script>
+        function closeTab() {
+            window.close();
+        }
+    </script>
+
+</body>
+</html>
